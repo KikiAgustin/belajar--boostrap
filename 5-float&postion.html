@@ -22,34 +22,34 @@
 
         <!-- Float -->
         <h3>Float</h3>
-        <div>Float start on all viewport sizes</div><br>
-        <div>Float end on all viewport sizes</div><br>
-        <div>Don't float on all viewport sizes</div>
+        <div class="float-start">Float start on all viewport sizes</div><br>
+        <div class="float-end">Float end on all viewport sizes</div><br>
+        <div class="float-none">Don't float on all viewport sizes</div>
         <br><br>
 
         <!-- Responsive -->
         <h3>Responsive</h3>
-        <div>Float start on viewports sized SM (small) or wider</div><br>
-        <div>Float start on viewports sized MD (medium) or wider</div><br>
-        <div>Float start on viewports sized LG (large) or wider</div><br>
-        <div>Float start on viewports sized XL (extra-large) or wider</div><br>
+        <div class="float-sm-end">Float start on viewports sized SM (small) or wider</div><br>
+        <div class="float-md-end">Float start on viewports sized MD (medium) or wider</div><br>
+        <div class="float-lg-end">Float start on viewports sized LG (large) or wider</div><br>
+        <div class="float-xl-end">Float start on viewports sized XL (extra-large) or wider</div><br>
         <br><br>
 
         <!-- Clearfix -->
         <h3>Clearfix</h3>
-        <div class="bg-info ">
-            <button type="button">Example Button floated left</button>
-            <button type="button">Example Button floated right</button>
+        <div class="bg-info clearfix ">
+            <button type="button" class="btn btn-light float-start">Example Button floated left</button>
+            <button type="button" class="btn btn-light float-end">Example Button floated right</button>
         </div>
         <br><br>
 
         <!-- Fixed Top Dan Fixed Bottom -->
-        <h3>Fixed Top</h3>
-        <h3>Fixed Bottom</h3>
+        <h3 class="fixed-top">Fixed Top</h3>
+        <h3 class="fixed-bottom">Fixed Bottom</h3>
         <br><br>
 
         <!-- Sticky -->
-        <div class="d-grid gap-2 ">
+        <div class="d-grid gap-2 sticky-top ">
             <button class="btn btn-primary " type="button">Sticky-top</button>
         </div>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui numquam ipsam ipsum odio laboriosam
@@ -71,10 +71,10 @@
 
         <!-- Responsive Sticky -->
         <h3>Responsive Sticky</h3>
-        <div>Stick to the top on viewports sized SM (small) or wider</div>
-        <div>Stick to the top on viewports sized MD (medium) or wider</div>
-        <div>Stick to the top on viewports sized LG (large) or wider</div>
-        <div style="margin-bottom: 600px;">Stick to the top on viewports sized XL (extra-large) or
+        <div class="sticky-sm-top">Stick to the top on viewports sized SM (small) or wider</div>
+        <div class="sticky-md-top">Stick to the top on viewports sized MD (medium) or wider</div>
+        <div class="sticky-md-top">Stick to the top on viewports sized LG (large) or wider</div>
+        <div style="margin-bottom: 600px;" class="sticky-xl-top">Stick to the top on viewports sized XL (extra-large) or
             wider</div>
 
 
