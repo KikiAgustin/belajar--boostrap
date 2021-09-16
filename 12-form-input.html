@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Belajar Bootstrap</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 class="text-center mt-5 ">Form Input</h2>
+
+        <!-- Element Form -->
+        <h4>Element Form</h4>
+        <form action="" method="POST">
+            <div class="form-group mb-3">
+                <label for="nama" class="form-label">Nama</label>
+                <input placeholder="Nama Lengkap" type="date" class="form-control" id="nama">
+            </div>
+            <div class="form-group mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input placeholder="Masukan email yang valid" type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input placeholder="Masukan password" type="password" class="form-control" id="password">
+            </div>
+            <div class="form-group mb-3">
+                <label for="read" class="form-label">Readonly</label>
+                <input value="320435290" type="text" class="form-control" id="read" readonly>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                <label class="form-check-label" for="flexCheckDefault">
+                    checkbox
+                </label>
+            </div>
+
+            <h4>Radio</h4>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="jenis-kelamin" id="jenis-kelamin1">
+                <label class="form-check-label" for="jenis-kelamin1">
+                    Laki-laki
+                </label>
+            </div>
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="radio" name="jenis-kelamin" id="jenis-kelamin2" checked>
+                <label class="form-check-label" for="jenis-kelamin2">
+                    Perempuan
+                </label>
+            </div>
+
+            <h4>Select</h4>
+            <select class="form-select mb-3" aria-label="Default select example">
+                <option selected>Pilih Jurusan</option>
+                <option value="Tehnik Fisika">Tehnik Informatika</option>
+                <option value="Akuntansi">Akuntansi</option>
+                <option value="Manajemen">Manajemen</option>
+            </select>
+
+            <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="5"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Pilih File</label>
+                <input class="form-control" type="file" id="formFile">
+            </div>
+
+            <label for="exampleColorInput" class="form-label">Color picker</label>
+            <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#000000"
+                title="Choose your color">
+
+            <label for="customRange2" class="form-label">Example range</label>
+            <input type="range" class="form-range" min="0" max="5" id="customRange2">
+
+
+            <div class="col-12 mb-4">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control is-valid" id="name" required>
+                <div class="valid-feedback">
+                    baguus
+                </div>
+            </div>
+
+            <div class="col-12">
+                <label for="password-1" class="form-label">Password</label>
+                <input type="text" class="form-control is-invalid" id="password-1" required>
+                <div class="invalid-feedback">
+                    Error
+                </div>
+            </div>
+            <div class="col-12 mb-5">
+                <label for="password-2" class="form-label">Konfirmasi Password</label>
+                <input type="text" class="form-control is-invalid" id="password-2" required>
+                <div class="invalid-feedback">
+                    Error
+                </div>
+            </div>
+
+        </form>
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
