@@ -1,0 +1,17 @@
+.coba-container {
+    height: 500px;
+    border-radius: 6px;
+    background-color: blueviolet;
+}
+
+.coba-row {
+    height: 100px;
+    background-color: burlywood;
+    margin-bottom: 10px;
+}
+
+.coba-col {
+    height: 100px;
+    background-color: cyan;
+    margin: 5px;
+}
